@@ -1,0 +1,33 @@
+/* General AppBar styles */
+.AppBar {
+    background-color:#ef5350; /* Set the background color of the AppBar to ash white */
+}
+
+/* Toolbar styles */
+.Toolbar {
+    display: flex;
+    align-items: center; /* Vertically center the items */
+    padding: 0 16px; /* Horizontal padding for spacing */
+}
+
+/* Logo styles */
+.logo {
+    height: 50px;  /* Height of the logo */
+    width: 50px;   /* Width of the logo */
+    margin-right: 16px;
+    border-radius: 50%;
+}
+
+/* Typography styles */
+h6 {
+    color: black;
+    font-size: 32px; /* Enlarged font size for better visibility */
+    font-weight: 600;
+    margin-right: auto; /* Push buttons to the right */
+}
+
+/* Button styles */
+button {
+    margin-left: 50px;
+    margin-right: 30px; /* Space between buttons */
+}

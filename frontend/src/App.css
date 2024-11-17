@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color:#ede7f6;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
+.main-content {
+  flex: 1; /* Allows this area to grow and fill the space */
+}
+
+.footer {
+  background-color: #333; /* Dark background for the footer */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
